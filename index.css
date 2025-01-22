@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.header {
+    display: flex;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 50px;
+    margin-left: 10px;
+}
+
+.menu {
+    margin-right: 10px;
+}
+
+.menu a {
+    text-decoration: underline;
+    margin-left: 10px;
+}
+
+.header-img {
+    background: url("/img-mission-background.webp");
+    height: 700px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+}
+
+.mission {
+    background-color: black;
+    height: 100px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.tea-section {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.tea-list {
+    display: inline-flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 40px;
+    justify-content: center;
+}
+
+
+.tea-img {
+    height: 200px;
+    width: 300px;
+}
+
+.location-sec {
+    margin-top: 80px;
+    height: 500px;
+    background: url("img-locations-background.webp");
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-flex;
+    column-gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.location-sec div {
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    align-content: center;
+ 
+}
+
+.location-sec h3 {
+    line-height: 50px;
+    color: seashell;
+}
+
+.footer {
+    height: 200px;
+}
+
+.contact {
+    height: 100%;
+    align-content: center;
+    line-height: 50px;
+}
+
+
+.footer h4 {
+    text-align: left;
+    margin-left: 20px;
+    padding: 30px 0px;
+}
+
+
